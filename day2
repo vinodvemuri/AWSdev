@@ -1,0 +1,52 @@
+INSTANCES CREATE PROCESS:
+PRIVATE SERVER (IT IS NOT DISABLE )
+PUBLIC SERVER  (IT IS ENABLE)
+
+Step1: Go To Lunch Instance  (Click On That one)
+Step2: Name And Tags Info
+          Name : Prviate server
+Step3: Select Unbuntu ( Click )
+Step4: Amazon Machine Image(AMI) it is a Free for eligible
+Step5: Instance type
+Step6: Key pair name 
+         Create new key pair
+Step7: Networking system
+Step8: Allow the Traffic from 
+Step9: Configure Storage 
+Step10: Just Lunch
+
+LINUX COMANDS :
+1> Private server was we cant connect the server (it is used to connect the process  SSH CLIENT was copy (key pair server16)-> It was key
+2> Public server connet the server
+PROCESS:
+1> sudo su -
+     ll      ->It mens Long Listing
+2> vi server16.pem
+     (copy paste the create key pair)
+"server16.pem" [new]
+3> vi server16.pem
+     ll
+4> vi file
+   add something 
+   ~
+   ~
+   ~
+  :wq!   -> It mens save this used
+  :q!    -> It mens not Saved
+  "file" [New]
+5> yes
+
+
+
+WEBSERVEROPEN PROCESS:
+ubuntu packages
+1> apt install git
+2> sudo su -
+3> apt install git
+4> git --version
+5> apt install nginx
+6> yum install nginx
+7> y
+8> systemctl start nginx
+9> syatemctl status nginx
+those are using for the open the private and public server based instance
